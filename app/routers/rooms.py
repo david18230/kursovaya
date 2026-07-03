@@ -8,10 +8,6 @@ router = APIRouter(prefix="/rooms", tags=["Rooms"])
 @router.get("/rooms")
 async def get_rooms(db: AsyncSession = Depends(get_db)):
     return await RoomService.get_all_rooms(db)
-# @router.get("/")
-# async def get_rooms(
-#         min_price:float = None,
-#         max_price:float = None,
-#         capacity:int = None,
-#         db: AsyncSession = Depends(get_db)
-# ):
+@router.get("/rooms/room_id")
+async def get_room_by_id(room_id: int, db: AsyncSession = Depends(get_db)):
+    return await RoomService.get_room_by_id(db, room_id)

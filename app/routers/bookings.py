@@ -23,7 +23,7 @@ async def create_booking(data:BookingCreate,db:AsyncSession=Depends(get_db)):
         raise HTTPException(status_code=404, detail="Такого номера нет")
     if data.guest_count > room.capacity:
         raise HTTPException(status_code = 400, detail = "Количество гостей больше"
-                                                        " вместимости номера")
+                                                        "вместимости номера")
     return await BookingService.create_booking(db, data)
 
 @router.delete("/delete/{booking_id}")

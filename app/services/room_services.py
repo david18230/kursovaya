@@ -15,8 +15,10 @@ class RoomService:
         result = await db.execute(select(Room))
         return result.scalars().all()
 
-
     @staticmethod
     async def get_room_by_id(db: AsyncSession, room_id: int):
         result = await db.execute(select(Room).where(Room.id == room_id))
-        return result.scalar_one_or_none()
+        room = result.scalar_one_or_none()
+        if not room:
+            return None
+        return room
