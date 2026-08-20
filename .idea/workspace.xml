@@ -5,14 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62d73407-70f4-4568-8aa4-a66fec9b18d7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Kursovaya.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Kursovaya.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/dependencies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/redis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/security.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/enums.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routers/health.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/promocodes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/favourite_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/notifications.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/promocode_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_large.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_bookings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_rooms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/auth.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routers/bookings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/bookings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routers/rooms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/rooms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/booking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/room.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/room.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/booking_services.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/booking_services.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/services/room_services.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/room_services.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/user_services.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/user_services.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,18 +56,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "david18230"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;david18230&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/david18230/kursovaya.git",
-    "accountId": "11def73d-a415-4a5f-b642-1aa2a9caa67c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/david18230/kursovaya.git&quot;,
+    &quot;accountId&quot;: &quot;11def73d-a415-4a5f-b642-1aa2a9caa67c&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -60,6 +86,11 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PythonProject1\PythonProject\Kursovaya\app" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
